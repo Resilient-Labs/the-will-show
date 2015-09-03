@@ -1,0 +1,36 @@
+
+body{
+	height:400px;
+	width:400px;
+}
+.red{
+	height:100px;
+	width:100px;
+	background-color:red;
+}
+
+.green{
+	height:100px;
+	width:100px;
+	background-color:green;
+}
+
+.yellow{
+	height:100px;
+	width:100px;
+	background-color:yellow;
+	float:right;
+}
+
+.black{
+	height:100px;
+	width:100px;
+	background-color:black;
+	float:right;
+}
+
+.middle{
+	height:200px;
+	width:200px;
+	margin: 0 auto;
+}
