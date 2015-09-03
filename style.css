@@ -1,36 +1,35 @@
-
-body{
-	height:400px;
-	width:400px;
-}
 .red{
-	height:100px;
-	width:100px;
-	background-color:red;
+	height:700px;
+	width:700px;
+	background-color: red;
+	margin:0;
+	padding:0;
 }
 
 .green{
-	height:100px;
-	width:100px;
-	background-color:green;
+	float:left;
+	background-color: green;
+	height:500px;
+	width:500px;
+	margin-top:100px;
+	margin-left:100px
 }
 
 .yellow{
-	height:100px;
-	width:100px;
-	background-color:yellow;
-	float:right;
+	float:left;
+	background-color: yellow;
+	height:300px;
+	width:300px;
+	margin-top:100px;
+	margin-left:100px;
+	
 }
 
 .black{
+	float:left;
+	background-color: black;
 	height:100px;
 	width:100px;
-	background-color:black;
-	float:right;
-}
-
-.middle{
-	height:200px;
-	width:200px;
-	margin: 0 auto;
+	margin-top:100px;
+	margin-left:100px;
 }
