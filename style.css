@@ -1,9 +1,18 @@
+*{
+	transition: all .7s ;
+}
+
 .red{
 	height:700px;
 	width:700px;
 	background-color: red;
 	margin:0;
 	padding:0;
+	position: absolute;
+}
+
+.red:hover{
+	background-color: blue;
 }
 
 .green{
@@ -12,7 +21,12 @@
 	height:500px;
 	width:500px;
 	margin-top:100px;
-	margin-left:100px
+	margin-left:100px;
+	position: absolute;
+}
+
+.green:hover{
+	background-color: blue;
 }
 
 .yellow{
@@ -20,9 +34,15 @@
 	background-color: yellow;
 	height:300px;
 	width:300px;
-	margin-top:100px;
-	margin-left:100px;
+	margin-top:200px;
+	margin-left:200px;
+	position: absolute;
 	
+}
+
+.yellow:hover{
+	background-color: blue;
+	transform:rotateZ(135deg);
 }
 
 .black{
@@ -30,6 +50,65 @@
 	background-color: black;
 	height:100px;
 	width:100px;
-	margin-top:100px;
-	margin-left:100px;
+	margin-top:300px;
+	margin-left:300px;
+	position:absolute;
+}
+
+.black:hover{
+	background-color: blue;
+}
+
+@media (max-width: 640px){
+
+
+.box{
+	height:100px;
+	width:100px;
+}
+
+
+
+}
+
+
+@media (max-width: 500px){ 
+
+
+.box{
+	margin-left: 0px;
+}
+
+.red{
+	margin-top: 0px;
+}
+.green{
+	margin-top: 100px;
+}
+.yellow{
+	margin-top: 200px;
+}
+.black{
+	margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
